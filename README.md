@@ -38,19 +38,19 @@ The boot menu and BIOS setup can be accessed by mashing the F2 key during BIOS s
 
 (if F2 don’t work: hold Powerbutton for 3s)
 
-To start, choose "Load Defaults" (choose from the menu or press F9 in the BIOS setup).
+- To start, choose "Load Defaults" (choose from the menu or press F9 in the BIOS setup).
 
 Then change:
-Boot->Boot Configuration, disable "Network Boot"
-Power->Secondary Power Settings, "Wake on LAN from S4/S5", set to "Stay Off"
+- Boot->Boot Configuration, disable "Network Boot"
+- Power->Secondary Power Settings, "Wake on LAN from S4/S5", set to "Stay Off"
 
-These settings are important but are already set as needed by "Load Defaults"
-Devices->Video, "IGD Minimum Memory" set to 64mb or 128mb
-Devices->Video, "IGD Aperture Size" set to 256mb
-Boot->Secure Boot, "Secure Boot" is disabled
-Security->Security Features, "Execute Disable Bit" is enabled. (I don’t find this option)
+- These settings are important but are already set as needed by "Load Defaults"
+- Devices->Video, "IGD Minimum Memory" set to 64mb or 128mb
+- Devices->Video, "IGD Aperture Size" set to 256mb
+- Boot->Secure Boot, "Secure Boot" is disabled
+- Security->Security Features, "Execute Disable Bit" is enabled. (I don’t find this option)
 
-Boot->Boot Priority->Legacy Boot Priority, enable "Legacy Boot"
+- Boot->Boot Priority->Legacy Boot Priority, enable "Legacy Boot"
 
 ## Boot/install
 - Boot menue: F10 Key
@@ -62,7 +62,7 @@ Boot->Boot Priority->Legacy Boot Priority, enable "Legacy Boot"
 
 ## post install
 
-POST INSTALL IMPORTANT: To make your Hackintosh hard drive bootable WITHOUT YOUR USB you need to again use Config Configurator to copy the EFI from the USB drive to your MacOS hard drive. Mount both USB and internal hard drive in Clover Configurator and copy and past the EFI from USB to internal hard drive. 
+To make your Hackintosh hard drive bootable WITHOUT YOUR USB you need to again use Config Configurator to copy the EFI from the USB drive to your MacOS hard drive. Mount both USB and internal hard drive in Clover Configurator and copy and past the EFI from USB to internal hard drive. 
 
 # credits
 - https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/page-159#post-2019668
