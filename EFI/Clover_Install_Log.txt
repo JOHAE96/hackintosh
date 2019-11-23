@@ -1,0 +1,47 @@
+
+Clover EFI installer log - Sat Oct 26 06:29:56 PDT 2019
+Installer version: v2.5k r5097 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         499.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk1
+   1:           Windows Recovery                         554.7 MB   disk1s1
+   2:                        EFI NO NAME                 104.9 MB   disk1s2
+   3:         Microsoft Reserved                         16.8 MB    disk1s3
+   4:       Microsoft Basic Data                         479.4 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.9 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume OSX - Data              45.6 GB    disk2s1
+   2:                APFS Volume Preboot                 81.9 MB    disk2s2
+   3:                APFS Volume Recovery                528.8 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+   5:                APFS Volume OSX                     10.6 GB    disk2s5
+
+Target volume /Volumes/OSX on disk2 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r5070/2019-10-26-06h29/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
