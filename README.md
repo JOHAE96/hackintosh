@@ -24,13 +24,13 @@ sudo "/Applications/Install macOS Catalina.app/Contents/Resources/createinstallm
 ### Install Clover
 Copy the 'EFI' Folder from the repository to the EFI partion from your Stick. (if this dont work here is the (source)[https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/post-1968080])
 
-CLOVER CONFIGURATOR: This is essential for mounting EFI partition
-Unzip EFINUC8Cat.zip or EFI.zip. Use Clover Configurator https://mackie100projects.altervista.org/download-clover-configurator/ 
+CLOVER CONFIGURATOR: for mounting EFI partition
+Unzip Use Clover Configurator https://mackie100projects.altervista.org/download-clover-configurator/ 
 
-Mount your USB EFI partition using Clover Configurator and copy Leesureone's or Servift's EFI folder in finder to the USB EFI Partition.
+Mount the USB EFI partition using Clover Configurator and copy the EFI folder in finder to the USB EFI Partition.
 
-Make unique SERIAL NUMBER. The ONLY thing needed to be done if not done already was to use "Clover Configurator" To make a unique serial number open Clover Configurator and on left menu choose SMBIOS. 
-Hit generate new for both "serial number" and "smUUID" and on the right check coverage. Look up the many guides on this. Here is one guide but skip down to "Choose your intended System Definition from the list" do a search and it has all the steps to take. This unique serial makes sure iCloud, iMessage, Facetime etc works properly. https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/
+"Make unique SERIAL NUMBER. The ONLY thing needed to be done if not done already was to use "Clover Configurator" To make a unique serial number open Clover Configurator and on left menu choose SMBIOS. 
+Hit generate new for both "serial number" and "smUUID" and on the right check coverage. Look up the many guides on this. Here is one guide but skip down to "Choose your intended System Definition from the list" do a search and it has all the steps to take. This unique serial makes sure iCloud, iMessage, Facetime etc works properly. https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/"
 
 
 ## BIOS settings
@@ -62,7 +62,7 @@ Then change:
 
 ## post install
 
-To make your Hackintosh hard drive bootable WITHOUT YOUR USB you need to again use Config Configurator to copy the EFI from the USB drive to your MacOS hard drive. Mount both USB and internal hard drive in Clover Configurator and copy and past the EFI from USB to internal hard drive. 
+"To make your Hackintosh hard drive bootable WITHOUT YOUR USB you need to again use Config Configurator to copy the EFI from the USB drive to your MacOS hard drive. Mount both USB and internal hard drive in Clover Configurator and copy and past the EFI from USB to internal hard drive."
 
 # credits
 - https://www.tonymacx86.com/threads/guide-intel-nuc7-nuc8-using-clover-uefi-nuc7i7bxx-nuc8i7bxx-etc.261711/page-159#post-2019668
