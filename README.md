@@ -16,7 +16,7 @@ $ diskutil partitionDisk /dev/disk2 2 MBR FAT32 "CLOVER EFI" 200Mi HFS+J "instal
 ```
 
 ### copy installer image
-download the installer from apple (Catalina installer is in the repository for guys with older macs)
+download the installer from apple (Catalina installer for guys with older macs: https://www.tonymacx86.com/account/privacy)
 ```bash
 sudo "/Applications/Install macOS Catalina.app/Contents/Resources/createinstallmedia" --volume  /Volumes/install_osx --nointeraction
 ```
